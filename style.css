@@ -50,15 +50,19 @@ header{
 
 
 .hero-section{
-    height: 100vh; 
+    height: 90vh; 
     width: 100%;
     background-color: rgb(146, 127, 255);
+}
+
+#name{
+    padding-top: 2.5rem;
 }
 
 .hero-section h1{
     color: white;
     text-align: center;
-    padding-top: 3.5rem;
+    padding-top: 1.5rem;
 }
 .hero-section h3{
     color: white;
@@ -66,6 +70,14 @@ header{
     padding-top: 1.5rem;
 }
 
+.hero-section img{
+    width: 30%;
+    height: auto; 
+    border-radius: 25px;
+    margin-left: 35%;
+    margin-top: 5%;
+    border: 2px solid white;
+}
 
 @media (max-width:768px) {
     .Nav ul{
@@ -89,6 +101,14 @@ header{
         left: 0;
         width: 100%;
         height: auto;
+    }
+    .hero-section img{
+        width: 50%;
+        height: auto; 
+        border-radius: 25px;
+        margin-left: 25%;
+        margin-top: 5%;
+        border: 2px solid white;
     }
 
 }
