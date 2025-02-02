@@ -8,16 +8,18 @@
 </head>
 <body>
     <header>
-       
+        
 
         <div class="Nav">
+            <div id="logo">AZIZ Soufiane</div>
             <div class="Nav-Logo">        
             </div>
             <nav>
                 <ul id="nav-menu">
-                    <li>About me</li>
-                    <li>My Skills</li>
-                    <li>Contact me</li>
+                    <li><a href="#aboutme">About me</a></li>
+                    <li><a href="#maskills">My Skills</a></li>
+                    <li><a href="#maprojects">My projects</a></li>
+                    <li><a href="#getintouch">Contact me</a></li>
                 </ul>
             </nav>
             <div class="hamburger" id="hamburger-icon">
@@ -36,14 +38,41 @@
     </header>
 
     <main>
-        <div class="aboutMe-section">
-
+        <div class="aboutMe-section" id="aboutme">
+            <h1>About me</h1>
+            <p>Hello! I'm <strong>Soufiane AZIZ</strong>, a passionate web developer and designer with a love for creating beautiful, functional websites. With a background in both design and development, I specialize in bringing ideas to life through clean, user-friendly interfaces and seamless functionality. My goal is to create websites that not only look great but also perform flawlessly across all devices.</p>
+            <p>I thrive on tackling complex problems, crafting intuitive user experiences, and staying up-to-date with the latest web technologies. Whether you're looking for a responsive website, an e-commerce solution, or a custom web application, I’m here to bring your vision to life with a blend of creativity and technical expertise.</p>
+            <p>Let's build something great together!</p>
         </div>
-        <div class="MySkills-section">
-
+        <h1 id="mskls">My Skills</h1>
+        <div class="MySkills-section" id="maskills">
+            <div class="design">
+                <h2>Web Design</h2>
+                <img src="images/figma.png" alt="">
+            </div>
+            <div class="frontEnd">
+                <h2>Front-end development</h2>
+                <img src="images/front end development logo.jpg" alt="">
+            </div>
         </div>
-        <div class="ContactMe-section">
-
+        <h1 id="mprj">My Projects</h1>
+        <div class="MyProjects-section" id="maprojects">
+            
+            <div class="card c1"></div>
+            <div class="card c2"></div>
+            <div class="card c3"></div>
+            <div class="card c4"></div>
+            <div class="card c5"></div>
+            <div class="card c6"></div>
+        </div>
+        <div class="ContactMe-section" id="getintouch">
+            <h1 id="gitm">Get in touch</h1>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
         </div>
     </main>
     <footer>
